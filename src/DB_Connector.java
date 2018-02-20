@@ -5,7 +5,7 @@ public class DB_Connector {
 
     private static String url = "jdbc:postgresql://localhost:5432/mydatabase";
     private static String user = "postgres";
-    private static String pass = "xmeto1234";
+    private static String pass = "";
     private static Connection conn = null;
 
     public static Connection connect() {
